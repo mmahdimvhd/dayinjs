@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="day"></p>
+</body>
+<script>
+    const d = new Date();
+    let daynum = d.getDay()
+    //document.getElementById('day').innerHTML=day;
+    var day;
+    var qote;
+    switch(daynum)
+    {
+        case 6:
+        day="Saturday";
+        qote="“The purpose of our lives is to be happy.” — Dalai Lama";
+        document.getElementById('day').innerHTML=day+" "+" attention : "+qote;
+        break;
+
+        case 0:
+        day="Sunday";
+        qote="“Money and success don’t change people; they merely amplify what is already there.” — Will Smith";
+        document.getElementById('day').innerHTML=day+" "+" attention : "+qote;
+        break;
+
+        case 1:
+        day="Monday";
+        qote="“Life is what happens when you’re busy making other plans.” — John Lennon";
+        document.getElementById('day').innerHTML=day+" "+" attention : "+qote;
+        break;
+
+        case 2:
+        day="Tuesday";
+        qote="“Get busy living or get busy dying.” — Stephen King";
+        document.getElementById('day').innerHTML=day+" "+" attention : "+qote;
+        break;
+
+        case 3:
+        day="Wednesday";
+        qote=" “You only live once, but if you do it right, once is enough.” — Mae West";
+        document.getElementById('day').innerHTML=day+" "+" attention : "+qote;
+        break;
+
+        case 4:
+        day="Thursday";
+        qote="“Many of life’s failures are people who did not realize how close they were to success when they gave up.”– Thomas A. Edison";
+        document.getElementById('day').innerHTML=day+" "+" attention : "+qote;
+        break;
+
+        case 5:
+        day="Friday";
+        qote="If you want to live a happy life, tie it to a goal, not to people or things.”– Albert Einstein";
+        document.getElementById('day').innerHTML=day+" "+" attention : "+qote;
+        break;
+    }
+
+    
+</script>
+</html>
